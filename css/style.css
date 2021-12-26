@@ -321,11 +321,19 @@
 /* Research end */
 
 /* slider */
+.slider_item {
+  overflow: hidden;
+}
+.slider-cards_container {
+  max-width: 670px !important;
+  margin-left: auto;
+}
 .slider_block {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+  width: 100%;
 }
 .slider {
   display: flex;
@@ -394,6 +402,8 @@
   text-align: left !important;
 }
 .slick-slider-dots {
+  top: 260px;
+  position: absolute;
   z-index: 200;
 }
 .slick-dots li {
@@ -436,4 +446,220 @@
 .slick-dots .slick-active .pagination_dot {
   color: #6b5af9;
 }
+
 /* slider */
+
+/* promo */
+.promo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.promo_img {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+/* promo */
+
+/* about */
+.about-wraper {
+  display: flex;
+  background: #f4f8ff;
+  border-radius: 20px;
+  padding: 41px 98px 187px;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 200px;
+}
+.about-left {
+  max-width: 50%;
+  width: 100%;
+  margin-right: 45px;
+}
+.left_title {
+  font-weight: 800;
+  font-size: 36px;
+  color: #2a2367;
+}
+.left__text {
+  color: #2a2367;
+  font-size: 18px;
+  line-height: 22px;
+}
+.about-form {
+  display: flex;
+  flex-direction: column;
+  background: #6b5af9;
+  border-radius: 20px;
+  padding: 56px 46px 46px;
+  position: relative;
+  max-width: 470px;
+  width: 100%;
+}
+.form__title {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+.form__text {
+  font-weight: normal;
+  font-size: 12px;
+  color: white;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 28px;
+}
+.name {
+  font-weight: normal;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding-bottom: 8px;
+  width: 100%;
+  margin-bottom: 31px;
+  margin-top: 46px;
+}
+.phone {
+  font-weight: normal;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding-bottom: 8px;
+  width: 100%;
+}
+.name::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.4;
+}
+.phone::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.4;
+}
+.about__button {
+  margin-top: 30px;
+  border: none;
+  padding: 22px 80px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #6b5af9;
+  background-color: white;
+  border-radius: 5px;
+}
+.chek {
+  font-size: 12px;
+  margin-top: 25px;
+  display: flex;
+  color: white;
+}
+.check_box__text {
+  color: #9b8fff;
+  padding-left: 10px;
+}
+.hand {
+  position: absolute;
+  top: 550px;
+  left: 0;
+}
+.line_img {
+  position: absolute;
+  top: 150px;
+  left: 990px;
+}
+.cube {
+  position: absolute;
+  top: 650px;
+  left: 900px;
+}
+.circle {
+  position: absolute;
+  top: 530px;
+  left: 530px;
+}
+/* about */
+
+/* footer */
+.footer {
+  background: #2a2367;
+}
+.footer-cotnainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footer_top {
+  width: 100%;
+  border-bottom: solid 1px #6b5af9;
+  padding-top: 75px;
+}
+.footer__title {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+.email {
+  font-weight: bold;
+  font-size: 48px;
+  color: #6b5af9;
+  margin: 0;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+}
+.footer_top-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 33px;
+}
+.footer_list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer_icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.whatsapp-footer {
+  margin-left: 20px;
+}
+.footer__button {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  padding: 22px 108px;
+  background: #6b5af9;
+  border-radius: 5px;
+}
+.footer_text {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.copywrite {
+  font-weight: normal;
+  font-size: 12px;
+  color: white;
+}
+.privacy {
+  font-weight: normal;
+  font-size: 12px;
+  color: white;
+  text-decoration-line: underline;
+}
+/* footer */
