@@ -1,6 +1,6 @@
 $(function () {
     $('.slider').slick({
-        vertical: true,
+        vertical: false,
         verticalSwiping: true,
         slidesToShow: 1,
         autoplay: false,
