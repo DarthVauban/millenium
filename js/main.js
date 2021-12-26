@@ -1,8 +1,9 @@
 $(function () {
     $('.slider').slick({
         vertical: false,
-        verticalSwiping: true,
+        verticalSwiping: false,
         slidesToShow: 1,
+        infinite: false,
         autoplay: false,
         dots: true,
         arrows: false,
